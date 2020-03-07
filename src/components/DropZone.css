@@ -1,0 +1,44 @@
+.drop-zone-container{
+  border-radius: 5px;
+  width: 50%;
+  height: 10rem;
+  background: #e4e4e4;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #0087f7;
+  margin: auto;
+}
+
+.drop-zone-container.hover{
+  transform: scale(0.95);
+}
+
+.drop-zone-container:hover {
+  cursor: pointer;
+}
+
+.drop-zone-container input {
+  display: none;
+}
+
+.image_list{
+  width: 50%;
+  height: 17%;
+  margin: auto;
+}
+
+.image_list ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding:0;
+}
+.image_list ul li{
+  padding-left: 20px;
+}
+.image_list ul li img{
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
