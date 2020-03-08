@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-dropzone/static/css/main.b5373b26.chunk.css",
+    "main.js": "/react-dropzone/static/js/main.33c5f965.chunk.js",
+    "main.js.map": "/react-dropzone/static/js/main.33c5f965.chunk.js.map",
+    "runtime-main.js": "/react-dropzone/static/js/runtime-main.73eef4b9.js",
+    "runtime-main.js.map": "/react-dropzone/static/js/runtime-main.73eef4b9.js.map",
+    "static/js/2.714bf3a4.chunk.js": "/react-dropzone/static/js/2.714bf3a4.chunk.js",
+    "static/js/2.714bf3a4.chunk.js.map": "/react-dropzone/static/js/2.714bf3a4.chunk.js.map",
+    "index.html": "/react-dropzone/index.html",
+    "precache-manifest.4fbb45a87e42ed755ba68768db00a6b7.js": "/react-dropzone/precache-manifest.4fbb45a87e42ed755ba68768db00a6b7.js",
+    "service-worker.js": "/react-dropzone/service-worker.js",
+    "static/css/main.b5373b26.chunk.css.map": "/react-dropzone/static/css/main.b5373b26.chunk.css.map",
+    "static/js/2.714bf3a4.chunk.js.LICENSE.txt": "/react-dropzone/static/js/2.714bf3a4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73eef4b9.js",
+    "static/js/2.714bf3a4.chunk.js",
+    "static/css/main.b5373b26.chunk.css",
+    "static/js/main.33c5f965.chunk.js"
+  ]
+}
