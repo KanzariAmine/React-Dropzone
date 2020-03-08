@@ -45,9 +45,27 @@ function DropZone() {
   /**Extract the coming data in simple array */
   const fileListArray = files => {
     for(let file of files){
-      let url = createObjectURL(file)
-      file["url"] = url;
+      extensionFile(file);
       return file;
+    }
+  }
+
+  const extensionFile = file => {
+
+    let url = createObjectURL(file)
+    let extention = file.name.split('.').pop();
+    file["extention"] = extention;
+    switch(file.extention){
+      case 'pdf':
+        return  file["url"] = 'assets/pdf.png';
+      case 'xlsx':
+        return  file["url"] = 'assets/excel.png';
+      case 'pptx':
+        return  file["url"] = 'assets/powerpoint.png';
+      case 'docx':
+        return  file["url"] = 'assets/word.png';
+      default:
+        return  file["url"] = url;
     }
   }
   
@@ -81,7 +99,12 @@ function DropZone() {
       <ul>
         {
           fileList.length ? fileList.map( file => 
-            <li key={file.size}><img  src={file.url} alt={file.name}/></li>          
+            <li key={file.size}>
+              <img  
+                src={file.url} 
+                alt={file.name}
+              />
+            </li>          
           )
           : null
         }
